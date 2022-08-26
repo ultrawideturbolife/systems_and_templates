@@ -1,11 +1,19 @@
 💡 *Although often desired not every bug or new functionality needs a fully filled out template. Some topics may not always apply or are too obvious to be filled in for that specific ticket. So, feel free to remove sections as needed or leave ‘N/A’ to indicate that it’s not applicable. Also please note that the structure of given subjects are mere guidelines, if you feel a subject would be better explained in plain sentences, drawings or a whole different way then by all means feel free to remove the initial structure and implement it as you see fit.*
 
-
 # ⁉️ Questions
 
 ---
 
 ⛔ *Questions and/or pressing matters in here need to be resolved as soon as possible, preferably before or shortly after starting the ticket.*
+
+
+- N/A
+
+# 🔖 Description
+
+---
+
+💡 *A short and descriptive introduction of the problem we are going to solve.*
 
 
 - N/A
