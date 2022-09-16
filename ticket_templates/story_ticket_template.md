@@ -34,7 +34,7 @@
 
 ---
 
-💡 *Functional requirements define what the system does or must not do, non-functional requirements specify how the system should do it. Do X (functional) within 5 seconds (non-functional).*
+💡 *Functional requirements* [https://en.wikipedia.org/wiki/Functional_requirement](https://en.wikipedia.org/wiki/Functional_requirement)  *define what the system does or must not do, non-functional requirements specify how the system should be/act* [https://en.wikipedia.org/wiki/Non-functional_requirement](https://en.wikipedia.org/wiki/Non-functional_requirement) *.*
 
 
 - **Functional:**
@@ -167,6 +167,15 @@
 
 
 **Any existing tests that need to be updated?**
+
+- N/A
+
+# 🤝 **Acceptance Test**
+
+---
+
+💡 *Which scenario’s should we test in the acceptance test? So that we can make sure that this ticket does what it is supposed to do without any unexpected errors.*
+
 
 - N/A
 
