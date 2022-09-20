@@ -1,0 +1,20 @@
+name: MachineConfigDTO
+description: Holds the configuration for a specific type of machine. When you look at the locations you'll see a {0} as id. This means the document this DTO is referring to always has a document id of 0.
+locations:
+  - MachineConfig/{0}
+fields:
+  currentState:
+    type: string
+    required: true
+    description: Holds the current on and off state represented as an enum in our fictional coffee machine application.
+    enums:
+      - on
+      - off
+    example: on, off
+    ref: currentStateDTO
+  oldState:
+    deprecated: 0.9
+    type: string
+    required: false
+    description: Holds a hypothetical old state, demonstrating the usage of the deprecated field. This is deprecated since version 0.9.
+    example: on

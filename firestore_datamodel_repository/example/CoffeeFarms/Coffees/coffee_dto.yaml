@@ -1,0 +1,30 @@
+name: CoffeeDTO
+description: Holds all information regarding coffee documents.
+locations:
+  - CoffeeFarms/Coffees/{$id}
+fields:
+  boneType:
+    type: map
+    required: true
+    description: The type of bone that was used when creating this coffee.
+    ref: BoneTypeDTO
+  color:
+    type: string
+    required: true
+    description: The color of the coffee at the moment it was made.
+    example: 'blackish'
+  id:
+    type: string
+    required: true
+    description: Holds the ID of the document for easier reference.
+    example: '1f597463-f507-46b6-9520-1e7bb7a53da3'
+  minutesBeforeThisCoffeeWasServed:
+    type: number
+    required: true
+    description: How long this coffee stood on the counter before it was served.
+    example: 2, 2.5
+  withCream:
+    type: boolean
+    required: false
+    description: Whether this coffee has cream on top. If this field is not present (because required is false) then default to false.
+    example: false

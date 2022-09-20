@@ -1,0 +1,21 @@
+name: BoneTypeDTO
+description: Used to indicate the type of bone used when creating coffees.
+locations:
+  - CoffeeFarms/Coffees/{$id}.boneType
+fields:
+  name:
+    type: string
+    required: true
+    description: The name of this bean.
+    example: 'Arabica'
+  servingSize:
+    type: number
+    required: true
+    description: The average serving size for one cope of coffee.
+    example: 25
+  aliases:
+    type: array
+    required: true
+    description: Different types of aliases for the bean.
+    example: ['Coffea arabica, Arabic coffee']
+    ref: string

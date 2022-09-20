@@ -1,0 +1,20 @@
+name: CoffeeFarmDTO
+description: Holds information regarding all different coffee farms.
+locations:
+  - CoffeeFarms/{$id}
+fields:
+  name:
+    type: string
+    required: true
+    description: The name of the farm.
+    example: 'Good Old Coffee Farm'
+  isOrganic:
+    type: boolean
+    required: true
+    description: Whether this farm is labeled as organic.
+    example: true
+  founded:
+    type: timestamp
+    required: false
+    description: When this farm was founded, is omitted in earlier versions. Add a null value if unknown.
+    example: 2021-10-28T07:54:12.646Z
