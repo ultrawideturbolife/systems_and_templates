@@ -46,22 +46,11 @@
 
 ---
 
-💡 *Old and new data models that will be created and/or altered when this feature is added. Describe the new name and location of the model as well as any fields that are new or will be removed. Show a JSON for easy reference. Use [https://beta5.objgen.com/json?demo=true](https://beta5.objgen.com/json?demo=true) for quick JSON generation.*
-
+💡 *Old and new data models that will be created and/or altered when this feature is added. Describe the new name and location of the model as well as any fields that are new or will be removed.*
 
 - **Name:** ExampleName
     - **Description:** N/A
-    - **ObjGen:**
-
-        ```yaml
-        
-        ```
-
-    - **JSON:**
-
-        ```json
-        
-        ```
+    - **Link to data model repo PR:** N/A
 
 
 # 🔒 Security Rules
@@ -178,6 +167,18 @@
 
 
 - N/A
+
+# **☎️ Impact Communication**
+
+---
+
+💡 *Who / which teams should we inform about the impact of releasing this ticket?*
+
+- **Sales**:
+- **Marketing**:
+- **Data**:
+- **CS**:
+- **Other**:
 
 # 🎨 UI/UX Behaviour
 
