@@ -44,6 +44,7 @@ To structure and communicate the state of our database we use easily readable (
             - `geopoint`
             - `reference`
         - **required**: Whether the field is always present. This may also be a condition so `Type == Incidental` would mean it's only required when the `Type` field inside that DTO is `Incidental`.
+        - **nullable**: Whether the field can be null.
         - **enums**: Possible enum values of a field. This field may be omitted if not applicable.
         - **description**: Short description of the field. What is it used for?
         - **ref**: The type used for arrays, maps or the name of the model that is used to serialise this field. This field may be omitted if not applicable. Examples could be (but not limited to) `string`, `string/dynamic` or a different model specified in this repository.
